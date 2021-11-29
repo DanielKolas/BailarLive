@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zespół muzyczny BailarLive">
+    <meta name="keywords" content="bailarlive, zespół muzyczny, koncert, wesele, muzyka na żywo">
+    <meta name="author" content="Daniel Kolas">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BailarLive</title>
+    <!-- FAVICON  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+
+<body>
+    <!-- NAVIGATION  -->
+    <nav>
+        <div class="container">
+            <div id="mobileNavMain" class="navigation flex-row mobileNavMain">
+                <!-- MOBILE  -->
+                <a href="index.html" class="invisible mobileVisible">
+                    <h1 class="mobileLogo" id="mobileLogo">BailarLive</h1>
+                </a>
+                <i class="fas fa-bars fa-2x invisible mobileVisible mobilePosition" id="openMobileMenu"></i>
+                <i class="fas fa-times fa-2x invisible mobilePosition" id="closeMobileMenu"></i>
+                <!-- END MOBILE  -->
+                <h1><a href="index.html" id="logoName" class="hover-add">BailarLive</a></h3>
+                    <ul id="mobileNav" class="flex-row mobileNav invisibleMenu">
+                        <li class="padding-right"><a href="index.html" class="li-item hover-add">Home</a></li>
+                        <hr class="mobileHR invisible mobileVisible">
+                        <li class="padding-right"><a href="members.html" class="li-item hover-add">O nas</a></li>
+                        <hr class="mobileHR invisible mobileVisible">
+                        <li class="padding-right"><a href="offer.html" class="li-item hover-add">Oferta</a></li>
+                        <hr class="mobileHR invisible mobileVisible">
+                        <li class="padding-right"><a href="index.html#section-music"
+                                class="li-item hover-add">Muzyka</a></li>
+                        <hr class="mobileHR invisible mobileVisible">
+                        <li class="padding-right"><a href="rider.html" class="li-item hover-add">Rider</a></li>
+                        <hr class="mobileHR invisible mobileVisible">
+                        <li><a href="index.html#contact" class="li-item hover-add">Kontakt</a></li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN  -->
+    <main class="section-light">
+        <div class="container">
+            <div class="main flex-column">
+                <h1 class="color-dark h1-title-main mobile-text-center">Zespół muzyczny BailarLive - muzyka 100% na
+                    żywo!</h1>
+                <img class="main-photo" src="./assets/img/photos_profile/profile_photo_main.jpg" alt="Zdjęcie zespołu">
+                <img class="main-photo-mobile" src="./assets/img/photos_profile/profile_photo_main_mobile.jpg"
+                    alt="Zdjęcie zespołu">
+            </div>
+        </div>
+    </main>
+
+
+    <!-- MEET  US  -->
+    <section class="section-dark">
+        <div class="container container-extra-padding">
+            <div class="meet-us">
+                <h1 class="h1-title">Poznaj nas!</h1>
+                <p class="p-text">Zespół muzyczny BailarLive oprócz gry w 100% NA ŻYWO oraz wieloletniemu doświadczeniu
+                    scenicznemu jest w stanie zaproponować oprawę muzyczno-artystyczną wszelkich imprez
+                    okolicznościowych.
+                    <br><br>
+                    Zespół BailarLive powstał w 1999 roku w miejscowości Rogów w województwie łódzkim. Muzycy w
+                    początkowej fazie istnienia zespołu szybko zostali docenieni za rzadko spotykaną na tego typu
+                    scenach grę na żywo. Dowodem tego były zaproszenia do udziału w koncertach z okazji Wielkiej
+                    Orkiestry Świątecznej Pomocy, a także w przeglądach muzycznych, na których zespół osiągał znaczne
+                    sukcesy.
+                </p>
+                <a href="offer.html" class="li-item hover-add"><button class="button-offer"><i
+                            class="fas fa-user-friends color-dark"></i> Więcej o nas!</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MUSIC  -->
+    <section id="section-music">
+        <div class="container">
+            <div class="music flex-left ">
+                <h1 class="h1-title mobile-text-center">BailarLive: Posłuchaj jak gramy</h1>
+                <p class="menu-song">Dystans - Co za noc</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/CoZaNoc.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">Bonnie Tyler - It's a Heartache</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/ItsAHeartache.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">Classic- To nie przyjaźń tylko miłość</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/ToNiePrzyjazTylkoMilosc.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">Edyta Geppert - Szukaj mnie</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/SzukajMnie.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">Dystans - Zaczekaj z tym do jutra</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/ZaczekajZTymDoJutra.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">ABBA - Gimme! Gimme! Gimme!</p>
+                <audio controls class="audio-bar">
+                    <source src="./assets/music/GimmieGimmieGimmie.mp3" type="audio/mpeg"></audio>
+                <p class="menu-song">Kordian - Dziewczyna z gór</p>
+                <audio controls class="audio-bar mobile-margin-bottom-normal">
+                    <source src="./assets/music/DziewczynaZGor.mp3" type="audio/mpeg"></audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section id="contact" class="section-light">
+        <div class="container container-extra-padding">
+            <div class="contact">
+                <h1 class="color-dark h1-title">Chcesz posłuchać więcej naszych wykonań?</h1>
+                <p class="color-dark p-subtitle">Odwiedź nasze social media:</p>
+                <div class="flex-row-center">
+                <div class="contact-item hover-size">
+                    <a href="https://www.youtube.com/channel/UC6L6Wn0VkAgQG5UnETf6PhA" target="_blank"><i
+                            class="fab fa-youtube fa-2x color-dark hover-red"></i></a>
+                    <a href="https://www.youtube.com/channel/UC6L6Wn0VkAgQG5UnETf6PhA" target="_blank">
+                        <h6 class="color-dark hover-red">YouTube</h6>
+                    </a>
+                </div>
+                <div class="contact-item hover-size margin-around">
+                    <a href="https://www.facebook.com/BailarLive/" target="_blank"><i
+                            class="fab fa-facebook-square fa-2x color-dark hover-blue"></i></a>
+                    <a href="https://www.facebook.com/BailarLive/" target="_blank">
+                        <h6 class="color-dark hover-blue">Facebook</h6>
+                    </a>
+                </div>
+                <div class="contact-item hover-size">
+                    <a href="https://www.instagram.com/bailarlive/?hl=pl" target="_blank"><i
+                            class="fab fa-instagram-square fa-2x color-dark hover-pink"></i></a>
+                    <a href="https://www.instagram.com/bailarlive/?hl=pl" target="_blank">
+                        <h6 class="color-dark hover-pink">Instagram</h6>
+                    </a>
+                </div>
+            </div>
+                <h1 class="color-dark title-second">Z chęcią odpowiemy również na wszystkie Wasze pytania!</h1>
+                <div class="contact-item">
+                        <a href="mailto:bailarlive@wp.pl" target="_blank" ><i class="fas fa-envelope fa-2x color-dark hover-size hover-add"></i></a>
+                        <a class="hover-add" href="mailto:bailarlive@wp.pl"><h4 class="color-dark h4-title hover-add hover-size hover-underline">Kliknij tutaj by wysłać
+                            maila</h4></a>
+                </div>
+                <hr class="hr">
+                <h4 class="color-dark h4-title-second">Zadzwoń już teraz:</h4>
+                <div class="contact-item flex-row-center mobile-margin-bottom-big">
+                    <a href="" target="_blank"><i class="fas fa-phone-volume fa-2x color-dark contact-icon"></i></a>
+                    <h4 class="color-dark ">+48 887-870-404</h4>
+                </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="backTop">
+                    <a href="#"><i id="iconBackTop" class="fas fa-chevron-up fa-2x "></i></a>
+                </div>
+                <a href="https://www.facebook.com/BailarLive/" target="_blank"><i
+                        class="fab fa-facebook-square fa-2x hover-add footer-icon padding-right hover-size"></i></a>
+                <a href="https://www.youtube.com/channel/UC6L6Wn0VkAgQG5UnETf6PhA" target="_blank"><i
+                        class="fab fa-youtube fa-2x hover-add footer-icon padding-right hover-size"></i></a>
+                <a href="https://www.instagram.com/bailarlive/?hl=pl" target="_blank"><i
+                        class="fab fa-instagram fa-2x hover-add footer-icon padding-right hover-size"></i></a>
+                <a href="mailto:bailarlive@wp.pl" target="_blank"><i class="fas fa-envelope fa-2x hover-add footer-icon hover-size"></i></a>
+                <p>©Zespół muzyczny BailarLive, 2021</p>
+                <p>©Made with ❤ by <span><a href="https://github.com/DanielKolas" class="hover-add"
+                            target="_blank">Daniel Kolas</a></span></p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

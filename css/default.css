@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* :root {
+    --primaryColorLight:#e5e5e5;
+    --primaryColorDark:#252525;
+    --primaryColorAdd:#0a4782;
+    --primaryColorAdd2:#57a6f5;
+} */
+
+html {
+    font-family: var(--primaryFont);
+    color: var(--primaryColorLight);
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+/* 
+section {
+    overflow: hidden;
+} */
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* TYPOGRAPHY  */
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+i {
+    color: var(--primaryColorLight);
+} 
+
+
+/* CONTAINERS  */
+header,
+footer,
+section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+    width: 100%;
+    padding: 3% 12%;
+    margin: 0;
+    align-items: center;
+    position: relative;
+  }
+
+  .container-extra-padding{
+      padding-top: 5%;
+      padding-bottom: 5%;
+  }
